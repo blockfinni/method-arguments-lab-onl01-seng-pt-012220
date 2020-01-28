@@ -6,13 +6,13 @@ name = "AJ"
 language = "Ruby"
 
 
-def introduction(name, language)
+def introduction_with_language(name, language)
   puts "Hi, my name is #{name}, and I am learning programming in #{language}."
 end
 
 name = "AJ"
 language = "Ruby"
 
-introduction(name, language)
+introduction(name)
 
-introduction(name, language)
+introduction_with_language(name, language)
